@@ -3,7 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fidel's Restaurant</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: lightblue;
+      }
+      hr {
+        border-color: black;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img
+        src="https://fidelspalisade.com/wp-content/uploads/Full-Logo_Fidels.png"
+        alt="logo"
+        id="header-img"
+        height="250px"
+        width="350px"
+      />
+      <h1>Fidel's Restaurant</h1>
+      <nav>
+        <h3><a href="#Menu"> Menu </a></h3>
+        <h3><a href="#Order-Form"> Order Form</a></h3>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2 id="Menu">Menu</h2>
+        <article></article>
+        <img
+          src="https://www.foodnetwork.com/content/dam/images/food/fullset/2009/11/1/0/BX0207_Lobster-Mac-and-Cheese_s4x3.jpg"
+          alt="Mac and Cheese Lobster"
+          height="250x"
+          width="250px"
+        />
+        <h3>Mac and Cheese Lobster</h3>
+        <p>
+          Mouth watering lobster with five different types of cheese.
+          <i> $29.99 </i>
+        </p>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKVPrwir7kA0Dn8dqd8FI2EdEihOl431VRQ&s"
+          alt="Pizza with Tapatio"
+          height="250x"
+          width="250px"
+        />
+        <h3>Pizza with Tapatio</h3>
+        <p>
+          Saucy and spicy pizza that will make you moan.
+          <i> $19.99 </i>
+        </p>
+        <img
+          src="https://heygrillhey.com/wp-content/uploads/2024/12/CAF-Square.jpg"
+          alt="Carne Asada Fries"
+          height="250x"
+          width="250px"
+        />
+        <h3>Carne Asada Fries</h3>
+        <p>
+          Carne Asada, cheese, beans, guac on top of fries. What else could you
+          want?
+          <i> $12.99 </i>
+        </p>
+      </section>
+      <hr />
+      <section>
+        <h2 id="Order-Form">Place your order</h2>
+        <form>
+          <label for="Mac-N-Cheese">
+            Mac and Cheese Lobster
+            <input type="number" min="0" value="0" id="Mac-N-Cheese" required />
+          </label>
+          <br />
+          <br />
+          <label for="Pizza"
+            >Pizza with Tapatio
+            <input type="number" min="0" value="0" id="Pizza" required />
+          </label>
+          <br />
+          <br />
+          <label for="Asada-Fries"
+            >Carne Asada Fries
+            <input type="number" min="0" value="0" id="Asada-Fries" required />
+          </label>
+          <h4>Drinks:</h4>
+          <label for="Ginger Ale"> Ginger Ale <input type="checkbox" /> </label>
+          <label for="Carbonated Water">
+            Carbonated Water <input type="checkbox" />
+          </label>
+          <label for="Water"> Water <input type="checkbox" /> </label>
+          <h4>Special Requests:</h4>
+          <textarea></textarea>
+          <br />
+          <br />
+          <button type="submit">Go To Checkout</button>
+        </form>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <p>Made with love by: @ fidell</p>
+    </footer>
+  </body>
 </html>
