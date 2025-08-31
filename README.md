@@ -1,6 +1,6 @@
 # restaurant_menu
 
-HTML Project - Fictional Restaurant Menu
+Codedex HTML Project - Fictional Restaurant Menu
 
 The final project for the Codedex HTML Lesson.
 
